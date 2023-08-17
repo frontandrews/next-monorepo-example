@@ -1,0 +1,32 @@
+{
+  "name": "shared-components",
+  "version": "1.0.1",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "watch": "babel src --out-dir dist --watch",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.10",
+    "@babel/core": "^7.22.10",
+    "@babel/preset-react": "^7.22.5",
+    "@storybook/addon-essentials": "7.3.1",
+    "@storybook/addon-interactions": "7.3.1",
+    "@storybook/addon-links": "7.3.1",
+    "@storybook/addon-onboarding": "1.0.8",
+    "@storybook/blocks": "7.3.1",
+    "@storybook/react": "7.3.1",
+    "@storybook/react-vite": "7.3.1",
+    "@storybook/testing-library": "0.2.0",
+    "prop-types": "15.8.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "storybook": "7.3.1"
+  }
+}

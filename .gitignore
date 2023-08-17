@@ -1,0 +1,44 @@
+# Ignore common files and directories
+node_modules/
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore individual package build/output directories (adjust these as needed)
+/packages/*/dist/
+/packages/*/build/
+/packages/*/node_modules/
+/packages/*/package-lock.json
+/packages/*/yarn.lock
+/packages/*/.pnp*
+# Ignore environment-specific files
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore IDE and editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore package-specific lock files
+/packages/*/package-lock.json
+/packages/*/.yarn/*
+/packages/*/yarn.lock
+
+# Ignore OS-generated files
+Thumbs.db
+
+# Ignore temporary files
+*.swp
+*.swo
+
+# Ignore custom build and output directories
+/build/
+/dist/
+/out/
+
+!/packages/app/
