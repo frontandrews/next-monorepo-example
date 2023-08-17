@@ -42,3 +42,5 @@ Thumbs.db
 /out/
 
 !/packages/app/
+packages/app/.next/
+packages/app/next-env.d.ts
